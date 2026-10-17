@@ -168,15 +168,15 @@ html{
 }
 
 .projetos-section li:first-child{
-    background-image: url("./img/271179840_329983538974470_196875326487872381_n.jpg");
+    background-image: url("./img/Reiner.jpg");
 }
 
 .projetos-section li:nth-child(2){
-    background-image: url("./img/271179840_329983538974470_196875326487872381_n.jpg");
+    background-image: url("./img/Kaiju.png");
 }
 
 .projetos-section li:nth-child(3){
-    background-image: url("./img/271179840_329983538974470_196875326487872381_n.jpg");
+    background-image: url("./img/Mina.png");
 }
 
 .projetos-section article{
@@ -212,6 +212,6 @@ html{
     justify-content: center;
     min-height: 3rem;
     flex-shrink: 0;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
 }
 
