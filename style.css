@@ -2,7 +2,7 @@
     /*Fontes*/
     --fonte-primaria: "Inter", sans-serif;
     /*bg*/
-    --bg-primario: #f5fef7;
+    --bg-primario: #dddfdd;
     --bg-secundario: #ffffff;
     --bg-button-primario: #0071e3;
     --bg-button-secundario: #ffffff;
@@ -191,6 +191,7 @@ html{
     justify-content: flex-end;
     align-items: stretch;
     color: var(--bg-secundario);
+
 }
 
 .projetos-section article h3{
@@ -214,4 +215,70 @@ html{
     flex-shrink: 0;
     border-radius: 1rem;
 }
+
+.contato-section form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: var(--bg-secundario);
+    padding: .875rem 1rem;
+    border-radius: 1.5rem;
+}
+
+form input, form textarea{
+    margin-bottom: 1rem;
+    margin-top: .25rem;
+    background-color: var(--bg-primario);
+}
+
+form label{
+    font-size: 1rem;
+    color: var(--cor-text-primario);
+}
+
+form input, form textarea, form button{
+    border-radius: 1.125rem;
+    border: none;
+    padding: .625rem 1rem;
+}
+
+form textarea{
+    height: 20rem;
+}
+
+form input, form button{
+    height: 3rem;
+}
+
+form button{
+    color: var(--cor-texto-button-primario);
+    background-color: var(--bg-button-primario);
+}
+
+footer{
+    background-color: var(--bg-secundario);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: .25rem;
+}
+
+
+
 
